@@ -1,0 +1,10 @@
+---
+# tasks file for supervisor
+- name: Install pip
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items: pkgs
+- name: Install supervisord
+  pip:
+    name: supervisor
