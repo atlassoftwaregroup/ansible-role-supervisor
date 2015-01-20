@@ -1,4 +1,6 @@
 ---
 # defaults file for supervisor
-pkgs:
-  - pip
+supervisor_pkgs:
+  - build-essential
+  - python-dev
+  - python-pip
