@@ -5,6 +5,3 @@
     name: "{{ item }}"
     state: present
   with_items: supervisor_pkgs
-- name: Install supervisord
-  pip:
-    name: supervisor

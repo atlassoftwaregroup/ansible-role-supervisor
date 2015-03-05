@@ -4,3 +4,4 @@ supervisor_pkgs:
   - build-essential
   - python-dev
   - python-pip
+  - supervisor
