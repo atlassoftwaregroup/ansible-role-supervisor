@@ -26,4 +26,4 @@ Example Playbook
 
 License
 -------
-MIT
+The source code is licensed under GPL v3.
